@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
 *{
   padding: 0;
   margin: 0;
 } 
+
 section{
   position: relative;
   width: 100%;
@@ -91,6 +94,7 @@ section .row:nth-child(even) div:nth-child(2){
   position:absolute;
   border: none;
   display: flex;
+  font-family: 'Poppins', sans-serif;
   justify-content: center;
   background: none;
   align-items: center;
@@ -113,6 +117,7 @@ section .row:nth-child(even) div:nth-child(2){
 .modal{
   position: absolute;
   top: 0;
+  font-family: 'Poppins', sans-serif;
   width: 100vw;
   background-color: rgba(17, 17, 17, 0.452);
   display: flex;
